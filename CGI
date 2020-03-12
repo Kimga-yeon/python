@@ -1,0 +1,7 @@
+DocumentRoot "C:/Bitnami/wampstack-7.4.1-0/apache2/htdocs"
+<Directory "C:/Bitnami/wampstack-7.4.1-0/apache2/htdocs">
+
+<Files "*.py">
+     Options +ExecCGI
+     AddHandler cgi-script .py
+    </Files>
